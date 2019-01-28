@@ -29,6 +29,20 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Rosa"
+                description="Name for the 'Rosa' extension"
+                id="gui.extension.rosa.name"
+            />
+        ),
+        extensionId: 'rosa',
+        iconURL: wedoImage,
+        insetIconURL: wedoMenuImage,
+        description: 'Control your Rosa robot.',
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
